@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Define the port to listen on
+#listening port
 PORT=1234
 
-# Start listening on the specified port
+#start listening
 nc -l -p $PORT
